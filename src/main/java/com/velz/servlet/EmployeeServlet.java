@@ -24,7 +24,7 @@ public class EmployeeServlet extends HttpServlet {
             service.findAll().forEach(employeeDto -> {
                 writer.write("His name: %s".formatted(employeeDto.getName()));
             });
-            System.out.println("asfasfafsfasafs");
+            System.out.println("ya pon");
 //            System.out.println(service.findAll());
         }
     }
